@@ -1,0 +1,301 @@
+
+header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(img/bgheader.jpg) center/cover;
+    
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+   
+}
+.bg-green{background-color:#a1c927;}
+.bg-white{background-color: #fd634d;}
+.bg_white{background-color: white;}
+.row::after { content: ""; clear: both; display: table; }
+.heigth50{height: 50vh;}
+.heigth40{height: 40vh;}
+
+
+.col{ width: 25%;}
+.col1{width: 34%;}
+.col2{width: 66%;}
+.col3{width: 33%;}
+.left{float: left;}
+.right{float: right;}
+.colpadd{padding: 100px 10px;}
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+.facebook{
+    font-size: 40px;
+    color: #2e3092;
+    transition: .5s linear;
+}
+.facebook:hover{ box-shadow: 0 4px 5px #2e3092;}
+.twitter:hover{ box-shadow: 0 4px 5px #00adef; }
+.you_tube:hover{ box-shadow: 0 4px 5px #ed3123;}
+.linkid:hover{ box-shadow: 0 6px 5px #16198f;}
+.twitter{
+    font-size: 40px;
+    color:#00adef;
+    transition: .5s linear;
+}
+.you_tube{
+    font-size: 40px;
+    color: #ed3123;
+    transition: .5s linear;
+}
+.linkid{
+    font-size: 40px;
+    color:#16198f;
+    transition: .5s linear;
+}
+.center{text-align: center;}
+.style{ font: 2em Raleway; text-transform: uppercase; white-space: nowrap;}
+.style2 {font:.8em Raleway;}
+.style_upper1{font:bold .8em Raleway ; text-transform: uppercase;}
+.style_upper2{font: 2em Raleway ; text-transform: uppercase;}
+.features_container{
+   min-height: 155px;
+    margin: 0 0 20px 0;
+}
+.text-white{color: white;}
+.text-red{color: #fd634d;}
+.text-green{color:#a1c927;}
+.text_silv{color: #656e74;}
+.icon{
+    margin: 0 0 20px 0;
+    height: 40px;
+}
+.h1{
+    bottom: 35px;
+    left:30px;
+    font-size: .7em Raleway;
+}
+.icon{ left: 175px;
+    bottom: 8px;
+  
+}
+.h2{
+    bottom: 30px;
+    right:30px;
+    font-size: .7em Raleway;
+}
+.icon2{ 
+    bottom: 30px;
+    right: 5px;
+  
+}
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+.paddtop{padding: 55px 0 0 0;}
+.paddtext{padding: 55px 0 0  40px;}
+.paddtext2{padding: 65px 0 0 60px;}
+.textmar{margin: 15px 0 0 0;}
+p,h2,a{
+    color: white;
+}
+.w80{margin: 60px 80px 0 0; text-transform: uppercase;}
+.w60{margin: 60px 0 0 60px; text-transform: uppercase;}
+header  ul {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+header  ul li{
+    display: inline;
+   
+    
+}
+.mar50{margin: 0 50px 0 0;}
+.mar20{margin: 0 20px 0 0;}
+
+header  ul li a{
+    display: inline-block;
+    margin: 5px 30px ;
+    text-transform: uppercase;
+    font: 0.8em Raleway;
+    font-weight: 500;
+    
+    white-space: nowrap;
+
+}
+
+
+#line{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+header div{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    text-align: right;
+   
+}
+.fitness{
+    background: url(img/fitness.jpg) center/cover;
+}
+.body{
+    background: url(img/body.jpg) center/cover;
+}
+.livestyle{
+    background: url(img/livestyle.jpg) center/cover;
+}
+.livestyle2{
+    background: url(img/livestyle2.jpg) center/cover;
+}
+.grape{
+    background: url(img/grape.jpg) center/cover;
+}
+.avacado{
+    background: url(img/avocado.jpg) center/cover;
+}
+.penultimate{
+    height: 100vh;
+    background: url(img/bgend.jpg) center/cover;
+}
+.penultimate div{
+    padding: 240px 0 0 0;
+}
+.penultimate div h6{
+    font: 2.8em Raleway;
+}
+.penultimate div p{
+    font: 1em Raleway;
+}
+footer{
+    height: 770px;
+    background-color: #0c1119;
+}
+footer section{
+    padding: 70px 0 0 0 ;
+}
+footer article{
+    margin: 0 30px 0 0 ;
+}
+
+footer article:last-child{
+    margin: 0;
+}
+footer h2{
+    font: 0.9em Raleway;
+}
+footer p{
+    font: .8em Raleway;
+    color: #657684;
+}
+article a{
+    margin:0 7px 0 0; 
+}
+form{
+    margin: 50px 0 0 0;
+}
+#name{
+    padding: 18px 20px 18px 20px;
+    border-radius: 5px;
+    font-size: .8em;
+}
+#email{
+    padding: 18px 95px 18px 20px;
+    border-radius: 5px;
+    font-size: .8em;
+}
+#btn{
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+.arrow{
+    font-size: .5em;
+}
+@media only screen and (max-width:768px){
+   header ul, #logo, header div {
+        left: 50%;
+        transform: translate( -50%, 0);
+    }
+  
+    header  ul li{
+        display: block;
+        text-align: center;
+    }
+   header ul{
+       top:150px
+   }
+    .coll{
+        width: 50%;
+        float: none;
+        margin: 20px auto;
+        border: 1px solid white;
+        border-radius:0 20px 0 20px ;
+    }
+    .colpadd{
+        padding: 20px;
+    }
+    .bg-green{
+        padding: 10px 0 0 0;
+    }
+    .col1, .col2{
+        width: 100%;
+    }
+    .paddtop{padding: 70px 30px 40px 30px;}
+    .paddtext{padding: 70px 60px 40px  60px;}
+    .paddtext2{padding: 70px 50px 50px 70px;}
+    .textmar{margin: 15px 0 0 0;}
+    .heigth40,.heigth50{
+        height: auto;
+    }
+    .heigth50a{height: 50vh;}
+    .heigth40a{height: 40vh;}
+    .style_upper2{font: 1.5em Raleway ; text-transform: uppercase;}
+    .style{ font: 1.4em Raleway; text-transform: uppercase;   }
+     footer .left{
+         float: none;
+     }
+     footer .col3{
+         width: 100%;
+     }
+     footer .col{
+         width: 100%;
+     }
+     footer article{
+         padding: 0 20px 20px 20px;
+     }
+     footer article p{
+         font-size: .8em;
+     }
+     footer form{
+         margin: 20px 0 0 0;
+     }
+     #name{
+         margin: 0 0 20px 0;
+     }
+     #email{display: block;
+        margin:  0 0 20px 0;
+    }
+     #btn{
+         margin: 20px 0 0 0;
+         padding: 10px;
+         font-size: .8em;
+     }
+    .penultimate p{
+        margin: 0 10px;
+    }
+    .penultimate div h6{
+        font: 1.9em Raleway;
+    }
+    .w80{margin: 10px 10px 0 0; text-transform: uppercase;}
+    .w60{margin: 16px 0 0 5px; text-transform: uppercase;}
+    .mar50{margin:  0;}
+    .mar20{margin: 0;}
+}
+
